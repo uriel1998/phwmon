@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Hardware Monitor
+GenericName=Hardware Monitor
+Comment=Hardware Monitor
+Exec=phwmon.py
+Terminal=false
+Icon=utilities-system-monitor
+Type=Application
+Categories=System;
