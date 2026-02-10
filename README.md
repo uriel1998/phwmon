@@ -1,4 +1,4 @@
-Hardware monitor icon for the system tray. Shows CPU, memory, network and disk I/O graphs. Works on Linux, BSD and Windows.
+Hardware monitor icon for the system tray. Shows load, CPU, memory, network and disk I/O graphs. Works on Linux, BSD and Windows.
 
 This is an updated version of [phwmon](https://gitlab.com/o9000/phwmon) working with python3. It also adds the option to include load measurements.  Right click the icon to get a "quit" menu.
 
@@ -13,8 +13,9 @@ On Debian/Ubuntu:
 ```
 sudo apt install python3-gi gir1.2-gtk-3.0 python3-psutil
 ```
+   
 
-``
+```
 ./phwmon.py --help
 usage: phwmon.py [-h] [--cpu] [--core] [--mem] [--net] [--io] [--size SIZE]
                  [--bg BG] [--fg_cpu FG_CPU] [--fg_mem FG_MEM]
